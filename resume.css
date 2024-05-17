@@ -1,0 +1,99 @@
+/* Global Styles */
+html, body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.w3-display-bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.w3-display-bottomleft h2 {
+    margin: 0;
+}
+
+/* Sidebar Styles */
+.w3-third {
+    float: left;
+    width: 30%;
+}
+
+/* Main Content Styles */
+.w3-twothird {
+    float: left;
+    width: 70%;
+}
+
+/* Card Styles */
+.w3-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Skill Bar Styles */
+.w3-light-grey {
+    background-color: #f1f1f1;
+}
+
+.w3-black {
+    background-color: #000;
+    color: #fff;
+}
+
+.w3-round-xlarge {
+    border-radius: 12px;
+}
+
+/* Language Bar Styles */
+.w3-light-grey .w3-round-xlarge {
+    background-color: #f1f1f1;
+}
+
+/* Footer Styles */
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Text and Icon Colors */
+.w3-text-black {
+    color: #000;
+}
+
+.w3-text-grey {
+    color: #757575;
+}
+
+.w3-text-theme {
+    color: #4CAF50;
+}
+
+/* Padding and Margin Styles */
+.w3-padding-16 {
+    padding: 16px;
+}
+
+.w3-margin-right {
+    margin-right: 16px;
+}
+
+.w3-margin-bottom {
+    margin-bottom: 16px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .w3-third, .w3-twothird {
+        width: 100%;
+    }
+}

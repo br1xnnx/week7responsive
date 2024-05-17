@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Brianna Brand Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"> 
+    </head>
+
+
+  <body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+      <h3 class="w3-padding-64 w3-center"><b>Brianna<br>Brand</b></h3>
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+      <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a> 
+      <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a> 
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>   
+      <a href="resume.html" onclick="w3_close()" class="w3-bar-item w3-button">RESUME</a>
+    </nav>
+-
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+      <span class="w3-left w3-padding">Brianna Brand</span>
+      <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+    </header>
+
+    <!-- MAIN (Center website) -->
+    <div class="main">
+
+      <h1>BBRAND.COM</h1>
+      <hr>
+      
+      <h2>PORTFOLIO</h2>
+      <p></p>
+      
+      <!-- Portfolio Gallery Grid -->
+    
+
+      <style>
+        .gallery__grid {
+          margin-block: 2rem;
+          display: grid;
+          gap: 1rem;
+          grid-template-columns: repeat(2, 1fr);
+        }
+    
+        .gallery__grid img:hover {
+          transform: scale(1.1);
+        }
+    
+        @media (min-width: 540px) {
+          .gallery__grid {
+            grid-template-columns: repeat(3, 1fr);
+          }
+        }
+    
+        @media (min-width: 768px) {
+          .gallery__grid {
+            grid-template-columns: repeat(4, 1fr);
+          }
+        }
+      </style>
+      
+      <div class="gallery__grid">
+        <img src="assets/Rachel1.png" alt="gallery image 1" />
+        <img src="assets/Rachel2.png" alt="gallery image 2" />
+        <img src="assets/Rachel3.png" alt="gallery image 3" />
+        <img src="assets/Dolce1.jpg" alt="gallery image 4" />
+        <img src="assets/Dolce2.jpg" alt="gallery image 5" />
+        <img src="assets/Dolce3.jpg" alt="gallery image 6" />
+        <img src="assets/originalcalmgirl.jpeg" alt="gallery image 7" />
+        <img src="assets/calmgirlsam1.png" alt="gallery image 8" />
+        <img src="assets/calmgirlsam2.png" alt="gallery image 9" />
+        <img src="assets/calmgirlsam3.png" alt="gallery image 10" />
+        <img src="assets/originalburg.jpeg" alt="gallery image 11" />
+        <img src="assets/burg1.png" alt="gallery image 12" />
+        <img src="assets/burg2.png" alt="gallery image 13" />
+        <img src="assets/burg3.png" alt="gallery image 14" />
+      </div>
+      <div class="gallery__btn">
+     
+      </div>
+    </section>
+
+
+      <!-- About section -->
+      <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+        <h4><b>About Me</b></h4>
+        <img src="assets/brianna1.jpg" alt="Me"  style="max-width: 40%; height: 40%;">
+        <div class="w3-content w3-justify" style="max-width:600px">
+          <h4>Brianna Brand</h4>
+          <p>Welcome to my HTML profile site. I'm Brianna Brand, and here you can learn a bit about me If you havent done so already :).
+
+    From late-night study sessions to dragging myself out of bed at 4am, my journey has been a rollercoaster of experiences and growth. So far I've opened my mind to new possibilities and challenges, shaping me into who I am today. *The constant juggle of assignments and the thrill of discovery keep me on my toes.* However after I graduate I have no interest in sticking to one(career,life) path, I will do every single thing I wanted to do like becoming an ultrasound tech , and become an esthetician...
+
+    I literally see no limit!
+          </p>
+          <p>mail: briannabrand513.bb@gmail.com</p>
+          <p>tel:123-456-7890</p>
+          <hr class="w3-opacity">
+          
+
+        
+        
+      <!-- Contact section -->
+      <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+        <div class="w3-content" style="max-width:600px">
+          <h4 class="w3-center"><b>Contact Me</b></h4>
+          <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
+          <form action="https://formsubmit.co/aab04b7123ae5026c10f2261d08254e6" method="post" target="_blank">
+            <div class="w3-section">
+              <label>Name</label>
+              <input class="w3-input w3-border" type="text" name="Name" required>
+            </div>
+            <div class="w3-section">
+              <label>Email</label>
+              <input class="w3-input w3-border" type="text" name="Email" required>
+            </div>
+            <div class="w3-section">
+              <label>Message</label>
+              <input class="w3-input w3-border" type="text" name="Message" required>
+            </div>
+            <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="w3-container w3-padding-32 w3-grey">  
+      
+          
+          
+      </footer>
+      
+    
+
+    <!-- End page content -->
+    </div>
+
+
+
+  </body>
+</html>
+
+
+
+
+
